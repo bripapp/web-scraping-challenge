@@ -100,7 +100,7 @@ def scrape():
         "news_title":news_title,
         "news_p":news_p,
         "featured_image_url":featured_image_url,
-        "fact_table":fact_table,
+        "fact_table":html_fact_table,
         "hemisphere_images":hemisphere_image_urls
     }
     # Close the browser after scraping
